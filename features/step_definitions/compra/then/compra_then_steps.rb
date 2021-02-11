@@ -14,6 +14,6 @@ Então('finalizo a compra') do
     @compraPage.finalizarCompra
 end
   
-Então('valido as informações do produto que comprei na tela de confirmação do pedido') do
-    pending # Write code here that turns the phrase above into concrete actions
+Então('valido que a compra foi finalizada com sucesso') do
+    expect(@compraPage.validarCompraConcluida).to eq('Your order on My Store is complete.')
 end

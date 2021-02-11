@@ -36,5 +36,9 @@ class CompraPage
      click_button 'I confirm my order'
    end
 
+   def validarCompraConcluida
+     find('#center_column > div > p > strong').text
+   end
+
     
 end
