@@ -29,5 +29,5 @@ Para executar os testes de Interface deve-se possuir instalado o **Ruby**, **Bun
 - *cucumber -t @pesquisar_produto* (para executar o teste referente a pesquisa de produto)
 - *cucumber -t @compra_completa* (para executar todo fluxo de compra, incluindo o login e a pesquisa de produto)
 
-*Observações: Alguns empecilhos quanto ao teste de interface, por conta da inconsistencia do sistema. Por vezes o site trava, e acaba afetando o funcionamento dos testes*
+*Observações: Alguns empecilhos quanto ao teste de interface, por conta da inconsistencia do sistema. Por vezes o site trava, e acaba afetando o funcionamento dos testes. As evidencias de cada teste são geradas e salvas na pasta */log*.*
 
