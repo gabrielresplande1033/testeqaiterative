@@ -1,13 +1,13 @@
 #language: pt
 
-@testeCompra
+@teste_compra
 Funcionalidade: Finalizar uma compra
 
     COMO cliente do e-commerce 
     EU QUERO escolher um produto,
     A FIM DE finalizar uma compra
 
-    @compraCompleta
+    @compra_completa
     Cenario: Compra completa caminho feliz
         Dado que eu já esteja logado no e-commerce com as credenciais "gbl_marcelino@hotmail.com" e "teste652"
         Quando eu pesquisar e escolher um produto
@@ -16,5 +16,7 @@ Funcionalidade: Finalizar uma compra
         E escolho a forma de pagamento
         E finalizo a compra
         E valido que a compra foi finalizada com sucesso
+
+
 
 

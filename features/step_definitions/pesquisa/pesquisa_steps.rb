@@ -1,3 +1,7 @@
+Quando('eu inserir o conteúdo {string} na barra de pesquisa e realizar a busca') do |string|
+    @pesquisaPage.inserirDadoNaPesquisa(string)
+end
+
 Então('devo clicar no primeiro produto da lista') do
     @pesquisaPage.detalhesPrimeiroProduto
 end

@@ -1,6 +1,6 @@
 #language: pt
 
-@testePesquisa
+@teste_pesquisa
 Funcionalidade: Efetuar pesquisa de produto no e-commerce
 
     COMO cliente do e-commerce 
@@ -8,7 +8,7 @@ Funcionalidade: Efetuar pesquisa de produto no e-commerce
     A FIM DE encontrar um produto
 
 
-    @pesquisarProduto
+    @pesquisar_produto
     Cenario: Realizar pesquisa 
         Dado que estou na página inicial do e-commerce
         Quando eu inserir o conteúdo "Faded Short Sleeve" na barra de pesquisa e realizar a busca

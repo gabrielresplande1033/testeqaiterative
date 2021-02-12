@@ -1,6 +1,6 @@
 #language: pt
 
-@testeLogin
+@teste_login
 Funcionalidade: Efetuar login no e-commerce
 
     COMO cliente do e-commerce 
@@ -10,7 +10,7 @@ Funcionalidade: Efetuar login no e-commerce
     Contexto: Estar na página inicial do e-commerce
     Dado que estou na página inicial do e-commerce
 
-    @efetuarLogin
+    @efetuar_login
     Esquema do Cenario: Realizar login
         Dado que eu acesse a pagina de login
         Quando eu inserir meus dados de '<login>' e '<senha>'
