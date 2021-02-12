@@ -6,7 +6,7 @@ Dado('que eu já esteja logado no e-commerce com as credenciais {string} e {stri
 end
 
 Quando('eu pesquisar e escolher um produto') do
-    step "eu inserir o conteúdo '#{"Printed Summer Dress"}' na barra de pesquisa e realizar a busca"
+    step "eu inserir o conteúdo '#{"Faded Short Sleeve"}' na barra de pesquisa e realizar a busca"
     step "devo clicar no primeiro produto da lista"
 end
 
