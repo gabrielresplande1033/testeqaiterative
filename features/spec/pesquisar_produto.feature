@@ -13,6 +13,6 @@ Funcionalidade: Efetuar pesquisa de produto no e-commerce
         Dado que estou na página inicial do e-commerce
         Quando eu inserir o conteúdo "Faded Short Sleeve" na barra de pesquisa e realizar a busca
         Então devo clicar no primeiro produto da lista
-        E verificar que o titulo desse produto é "Printed Chiffon Dress"
+        E verificar que o titulo desse produto é "Faded Short Sleeve T-shirts"
 
     
